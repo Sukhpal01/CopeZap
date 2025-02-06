@@ -52,7 +52,7 @@ const CodeEditor: React.FC = () => {
                               </div>
 
                          </div>
-                         <div className={` bg-[#2D2F34] ${theme === "monokai-bright" ? "bg-[d3dce6]" : "bg-[#2D2F34]"}`}>
+                         <div className={`w-full bg-[#2D2F34] ${theme === "monokai-bright" ? "bg-[#d3dce6]" : "bg-[#2D2F34]"}`}>
                               <Editor
                                    height={`calc(100vh - ${fullScreen ? "84px" : "121px"})`}
                                    width="100%"
